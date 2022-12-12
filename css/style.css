@@ -1,0 +1,182 @@
+@font-face {
+	font-family: irsansl;
+	font-style: normal;
+	font-weight:150%;
+	src:url('../fonts/IranSansL.eot');
+	src:url('../fonts/IranSansL.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/IranSansL.woff2') format('woff2'),
+	url('../fonts/IranSansL.woff') format('woff'),
+	url('../fonts/IranSansL.ttf') format('truetype');
+}
+@font-face {
+	font-family: irsans;
+	font-style: normal;
+	font-weight:;
+	src:url('../fonts/IranSans.eot');
+	src:url('../fonts/IranSans.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/IranSans.woff2') format('woff2'),
+	url('../fonts/IranSans.woff') format('woff'),
+	url('../fonts/IranSans.ttf') format('truetype');
+}
+@font-face {
+	font-family: yekan;
+	font-style: normal;
+	font-weight:;
+	src:url('../fonts/yekan.eot');
+	src:url('../fonts/yekan.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/yekan.woff2') format('woff2'),
+	url('../fonts/yekan.woff') format('woff'),
+	url('../fonts/yekan.ttf') format('truetype');
+}
+@font-face {
+	font-family: vazir;
+	font-style: normal;
+	font-weight:;
+	src:url('../fonts/Vazir.eot');
+	src:url('../fonts/Vazir.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Vazir.woff2') format('woff2'),
+	url('../fonts/Vazir.woff') format('woff'),
+	url('../fonts/Vazir.ttf') format('truetype');
+}
+
+
+div1 {
+font-family:irsans;
+font-size-adjust:20px;
+}
+.clumb1 {
+border:2px #ddd;
+border-radius:10px;
+width:auto;
+height:40px;
+background-image:url("../media/H1.Bim.png");
+}
+.titr {
+font-weight:bolder;
+padding-top:10px;
+text-align:center;
+font-family:irsans;
+font-size:30px;
+color:white;
+}
+
+.divform {
+  border:5px solid red;
+  border-radius:10px;
+  width:auto;
+  height:70px;
+  margin-right:32%;
+  margin-left:2%;
+  margin-top:5px;
+  background-image:url("../media/H2.KF.png");
+  color:#ddd;
+  }
+.divform > div {
+  font-family:irsansl;
+  text-align:center;
+  font-size:22px;
+  margin-top:5px;
+  }
+.divform .div {
+  font-size:14px;
+  margin-top:0;
+}
+.divform2 {
+  border:2px solid blue;
+  border-radius:10px;
+  width:66%;
+  height:auto;
+  margin-right:32%;
+  margin-left:2%;
+  margin-top:5px;
+  }
+.divform2 > div {
+  font-family:irsansl;
+  text-align:justify;
+  font-size:11px;
+  margin-top:5px;
+  margin-right: 5px;
+  margin-left:5px;
+}
+.divform2 .div2 {
+  text-align:right;
+  font-size:13px;
+  background:black;
+  border-radius:5px;;
+  color:#dd1;
+}
+.divform2 .div3 {
+  text-align:center;
+  font-size:11px;
+  background:brown;
+  color:#dd1;
+  border-radius:5px;
+  
+}
+
+
+/* /##/////////////\//############/ */
+* {
+         box-sizing: border-box;
+      }
+      html, body {
+         margin: 0;
+         padding: 0;
+      }
+      .nav-bar {
+         border:1px solid red;
+         background: lightgrey; /* same color as the li */
+         width: 30%;
+         height: 100%; /* takes the full width */
+         position: fixed;
+         top: 0px; /* sticks the side nav to the top */
+         right: 0px; /* sticks the side nav to the left side */
+         overflow-y: auto; /* adds a vertical scrolling functionality when needed */
+      }
+      .nav-bar a {
+         border:2px solid brown;
+         border-radius:20px;
+         text-decoration: none;
+         color: black;
+         display: block;
+         margin-top:2px;
+      }
+      .nav-bar > ul {
+         
+         text-align:center;
+         font-family:vazir;
+         font-weight:bolder;
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+      }
+      .nav-bar > ul > li > a {
+         padding: 10px;
+         background: lightgrey;
+      }
+      .nav-bar > ul > li > a:hover {
+         
+         background: #173459;
+         color: #f8f9f9;
+      }
+      .nav-bar .active {
+         background: #173459;
+         color: #f8f9f9;
+      }
+      .nav-bar li {
+         border-bottom: none;
+      }
+      .nav-bar li:last-child {
+         border: none;
+      }
+      .content {
+         margin-right: 30%;
+         width: 70%;
+         padding: 10px;
+         border-width:8px;
+         border-style:;
+         border-radius:20px;
+         border-color:gray;
+         
+      }
+/*ghhhh####@@@@@@@@@@[[[[[[[[[[[  */
